@@ -1,0 +1,93 @@
+.form {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #2e2f42;
+}
+
+.delay-label {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.label-radio {
+display: inline-flex;
+    align-items: center;
+    gap: 14px;
+    margin-right: 48px;
+}
+
+.input {
+    max-width: 360px;
+    max-height: 40px;
+    border-radius: 4px;
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 1px solid #808080;
+}
+
+.input:hover {
+    border: 1px solid #000000;
+}
+
+.input:focus {
+    border: 1px solid #4e75ff;
+    outline: none;
+}
+
+.fieldset {
+    max-width: 360px;
+    max-height: 78px;
+    border-radius: 4px;
+    border: 1px solid #808080;
+    margin: 0 0 24px 0;
+}
+
+.fieldset:hover,
+.fieldset:focus {
+    border: 1px solid #000000;
+}
+
+.input-radio {
+    border: 1px solid #757575;
+    border-radius: 14px;
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    vertical-align: middle;
+} 
+
+.input-radio:checked{
+    accent-color: #4e75ff;;
+}
+
+.button {
+    border-style: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 360px;
+    height: 40px;
+    background: #4e75ff;
+    
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+
+.button:hover {
+    background: #6c8cff;
+}
